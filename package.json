@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "static": "cd static && nodemon server.js",
-    "dynamic": "cd dynamic && nodemon server.js"
+    "static": "node static/server.js",
+    "dynamic": "node dynamic/server.js",
+    "mock": "npm run static"
   },
   "author": "",
   "license": "ISC",
