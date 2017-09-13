@@ -1,0 +1,16 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "static": "cd static && nodemon server.js",
+    "dynamic": "cd dynamic && nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.12.0",
+    "mockjs": "^1.0.1-beta3"
+  }
+}
